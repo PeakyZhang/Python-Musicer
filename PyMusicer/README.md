@@ -1,11 +1,11 @@
-# Musicplayer
-> Python 音乐播放器
+# Musipy
+> Python Music Player
 
-## 功能：
-> &emsp;&emsp;首先可以实现本地音乐的播放，能够打开电脑端的文件，文件中进行多选，实现暂停、上一曲、下一曲的功能。在此基础上，完成随机播放列表和网络端下载的功能。
+## product description:：
+> &emsp;&emsp;This music player developed based on Python and Tkinter is a full-featured, easy-to-use local and online music player. It provides a user-friendly interface, supports local music playback in various audio formats, and can easily search and play music from all over the world through the online music search function. The design goal of this music player is to be simple and easy to use, and at the same time, it can meet users' basic needs for music players, such as play, pause, stop, adjust volume, etc.
 
-## 设计方法：
-> &emsp;&emsp;本次开发使用Python语言，利用它的代码量少，现成库多，开发效率高的特点，同时觉得Qt设计的界面更加美观，而它恰好有PyQt5库，而PyQt5是基于Qt开发的，拥有大多数Qt的功能。  
+## Design method：
+> &emsp;&emsp;This development uses the Python language, taking advantage of its small amount of code, many ready-made libraries, and high development efficiency
 >&emsp;&emsp;首先我们需要一个音乐播放器的界面，可用来设计界面的python库有Tkinter，PyQt5等，这里选择了设计简单，学习成本较低的PyQt5，来设计UI，通过QtDesigner软件，可以很快的做出一个界面，大大减少了开发成本，提高了效率。  
 >&emsp;&emsp;音乐播放器的内部设计分为两个部分：一、本地音乐的打开与播放，二、网络音乐的搜索下载。本地音乐打开与播放时，首先选择文件夹，难题是如何使用鼠标选择文件中的某些歌曲。音乐的播放通过pygame模块进行控制。在学习过程中发现可以用爬虫实现网络音乐的下载，故学习如何使用爬虫技术进行爬取歌曲的id，然后调用外链进行下载。
 ## 用到的Python库：
