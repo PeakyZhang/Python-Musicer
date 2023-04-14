@@ -11,7 +11,7 @@
 
 - ### random,random.randint()：
 
-> &emsp;&emsp; random库是使用随机数的Python标准库,其中random.randint(a,b)随机生成一个（a,b）之间的整数，在本播放器中主要用于本地文件的随机播放。
+> &emsp;&emsp; The random library is a Python standard library that uses random numbers, where random.randint(a,b) randomly generates an integer between (a,b), which is mainly used for random playback of local files in this player.
 
 - ### threading：
 
