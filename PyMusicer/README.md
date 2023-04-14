@@ -3,14 +3,13 @@
 
 ## product description:：
 > &emsp;&emsp;This music player developed based on Python and Tkinter is a full-featured, easy-to-use local and online music player. It provides a user-friendly interface, supports local music playback in various audio formats, and can easily search and play music from all over the world through the online music search function. The design goal of this music player is to be simple and easy to use, and at the same time, it can meet users' basic needs for music players, such as play, pause, stop, adjust volume, etc.
-
 ## Design method：
 > &emsp;&emsp;This development uses the Python language, taking advantage of its small amount of code, many ready-made libraries, and high development efficiency
->&emsp;&emsp;首先我们需要一个音乐播放器的界面，可用来设计界面的python库有Tkinter，PyQt5等，这里选择了设计简单，学习成本较低的PyQt5，来设计UI，通过QtDesigner软件，可以很快的做出一个界面，大大减少了开发成本，提高了效率。  
->&emsp;&emsp;音乐播放器的内部设计分为两个部分：一、本地音乐的打开与播放，二、网络音乐的搜索下载。本地音乐打开与播放时，首先选择文件夹，难题是如何使用鼠标选择文件中的某些歌曲。音乐的播放通过pygame模块进行控制。在学习过程中发现可以用爬虫实现网络音乐的下载，故学习如何使用爬虫技术进行爬取歌曲的id，然后调用外链进行下载。
-## 用到的Python库：
+>&emsp;&emsp;First of all, we need a music player interface, using the python library with Tkinter to design the UI 
+>&emsp;&emsp;The internal design of the music player is divided into two parts: 1. Opening and playing of local music, 2. Searching and downloading of network music. When the local music is opened and played, first select the folder, the problem is how to use the mouse to select some songs in the file. Music playback is controlled through the pygame module. During the learning process, I found that crawlers can be used to download online music, so I learned how to use crawler technology to crawl the id of songs, and then call external links to download.
+## Python library used：
 
-- ### random用到random.randint()：
+- ### random,random.randint()：
 
 > &emsp;&emsp; random库是使用随机数的Python标准库,其中random.randint(a,b)随机生成一个（a,b）之间的整数，在本播放器中主要用于本地文件的随机播放。
 
